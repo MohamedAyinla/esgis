@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  h1 {
+    @apply font-extrabold text-2xl sm:text-4xl md:text-5xl sm:leading-snug;
+  }
+  h2 {
+    @apply font-extrabold text-xl sm:text-3xl md:text-4xl sm:leading-snug;
+  }
+  h3 {
+    @apply font-extrabold text-3xl leading-snug;
+  }
+  /* ... */
+  body {
+      @apply font-sans
+  }
+}
