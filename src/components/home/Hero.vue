@@ -1,7 +1,8 @@
 <template>
-	<div class="w-full bg-hero-pattern">
+	<div class="w-full bg-hero-pattern" id="hero">
 		<div
-			class="grid grid-cols-1 xl:grid-cols-2 justify-center items-center gap-5 min-h-screen max-w-7xl mx-auto"
+			class="hero grid grid-cols-1 xl:grid-cols-2 justify-center items-center gap-5 h-screen max-w-7xl mx-auto"
+			
 		>
 			<div
 				class="w-full px-4 sm:w-10/12 sm:px-7 md:w-3/4 lg:w-3/5 xl:w-full xl:px-9"
@@ -60,7 +61,7 @@
 
 <style>
 	.bg-hero-pattern {
-		background: url('../assets/Groupe 3.png') no-repeat;
+		background: url('../../assets/Groupe 3.png') no-repeat;
 		background-size: cover;
 	}
 
@@ -80,4 +81,11 @@
 		md:text-lg md:py-4 md:px-5 
 		border-2 rounded-md flex flex-row items-center gap-x-2;
 	}
+
+	@media screen and (max-height: 600px) {
+		.hero {
+			@apply h-auto pt-24 pb-16
+		}
+	}
+
 </style>

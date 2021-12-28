@@ -1,10 +1,10 @@
 <template>
 	<div class="sticky top-0 z-50">
-		<div class="bg-white shadow-sm absolute w-full">
+		<div class="bg-white shadow-md absolute w-full">
 			<nav class="max-w-7xl mx-auto px-4 sm:px-8 lg:px-10">
 				<div class="flex items-center justify-between h-20">
 					<div>
-						<img class="w-32" src="../assets/esgis-logo.png" alt="" />
+						<img class="w-32" src="../../assets/esgis-logo.png" alt="" />
 					</div>
 
 					<div
@@ -15,8 +15,9 @@
 							class="w-2/5 sm:w-full text-center lg:w-auto lg:text-left"
 							v-for="item in menu"
 							:key="item.id"
+							@click="showMenu"
 						>
-							<router-link class="font-medium" :id="item.id" :to="item.path">{{
+							<router-link class="font-medium hover:text-primary-700" :id="item.id" :to="item.path">{{
 								item.name
 							}}</router-link>
 						</div>
@@ -24,11 +25,13 @@
 						<div class="flex justify-center gap-2 w-full sm:hidden">
 							<button
 								class="bg-primary-600 transition-all hover:bg-primary-700 text-white py-2 px-3 rounded-md"
+								@click="showMenu"
 							>
 								Candidater
 							</button>
 							<button
 								class="border-primary-600 text-black transition-all hover:bg-primary-600 hover:text-white border-2 py-2 px-3 rounded-md"
+								@click="showMenu"
 							>
 								Espace étudiant
 							</button>

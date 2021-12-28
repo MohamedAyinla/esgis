@@ -1,5 +1,5 @@
 <template>
-	<div id="app">
+	<div id="app" class="">
 		<!-- <div id="nav">
       <router-link to="/">Home</router-link> |
       <router-link to="/about">About</router-link>
@@ -14,8 +14,8 @@
 </template>
 
 <script>
-	import AppFooter from './components/AppFooter.vue';
-	import Navbar from './components/Navbar.vue';
+	import AppFooter from './components/general/AppFooter.vue';
+	import Navbar from './components/general/Navbar.vue';
 	export default {
 		components: {
 			Navbar,
@@ -32,6 +32,6 @@
 
 	
 	a.router-link-exact-active {
-		@apply text-primary-900
+		@apply text-primary-700
 	}
 </style>

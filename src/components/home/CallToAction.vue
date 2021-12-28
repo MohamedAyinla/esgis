@@ -15,12 +15,12 @@
 				<div>
 					<div>
 						<button class="white_btn">
+							Candidater
 							<box-icon
 								name="edit-alt"
 								color="currentColor"
 								type="solid"
 							></box-icon>
-							Candidater
 						</button>
 					</div>
 				</div>

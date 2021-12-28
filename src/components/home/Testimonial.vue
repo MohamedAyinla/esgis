@@ -1,7 +1,7 @@
 <template>
-	<div class=" max-w-7xl mx-auto">
-		<div class="py-20 px-5 md:px- container mx-auto">
-			<h2 class="lg:pl-10 xl:pl-0">
+	<div class="bg-noir w-full mx-auto">
+		<div class="py-10 md:py-16 lg:py-32 px-5 md:px-9 max-w-7xl mx-auto">
+			<h2 class="lg:pl-10 xl:pl-0 text-white">
 				Ce qu'en disent
 				<span class="underline underline-offset-8 decoration-pink-500">nos lauréats</span>
 			</h2>
@@ -89,28 +89,19 @@
 						topic: 'Developpeur mobile',
 					},
 					{
-						fullName: 'Jack Berret',
+						fullName: 'Jacki Berret',
 						saying:
 							'Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde mollitia, iure debitis quo illum sit obcaecati ex blanditiis ad suscipit possimus, doloribus sunt reprehenderit',
 						topic: 'Developpeur web',
 					},
 					{
-						fullName: 'Jack Berret',
+						fullName: 'Jackie Berret',
 						saying:
 							'Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde mollitia, iure debitis quo illum sit obcaecati ex blanditiis ad suscipit possimus, doloribus sunt reprehenderit',
 						topic: 'Developpeur web',
 					},
 				],
 			};
-		},
-		computed: {
-			swiper() {
-				return this.$refs.mySwiper.$swiper;
-			},
-		},
-		mounted() {
-			console.log('Current Swiper instance object', this.swiper);
-			this.swiper.slideTo(0, 4000, false);
 		},
 	};
 </script>

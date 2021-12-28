@@ -50,7 +50,7 @@
 			</div>
 
 			<div>
-                <img class="h-full" src="../assets/university.jpg" alt="">
+                <img class="h-auto lg:h-full" src="../../assets/university.jpg" alt="">
             </div>
 		</div>
 	</div>
@@ -65,7 +65,7 @@
 		@apply bg-blanc text-black transition-all hover:bg-gray-100 
 		text-sm py-2 px-3 
 		sm:text-base sm:py-3 sm:px-4 
-		md:text-lg md:py-4 md:px-5 
-		rounded-md flex items-center gap-2;
+		md:text-lg md:py-4 md:px-5
+		rounded-md flex justify-center items-center gap-2;
 	}
 </style>

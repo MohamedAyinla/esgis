@@ -5,7 +5,7 @@
 		>
 			<div class="flex flex-wrap lg:flex-nowrap justify-between gap-10">
 				<div class="lg:w-5/12">
-					<img class="w-36 mb-5" src="../assets/esgis-logo.png" alt="" />
+					<img class="w-36 mb-5" src="../../assets/esgis-logo.png" alt="" />
 					<p class="lg:w-4/5 xl:w-3/5 leading-8 font-medium">
 						Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure nisi
 						nihil adipisicing elit. Iure nisi nihil.
